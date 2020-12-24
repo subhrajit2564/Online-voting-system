@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body{
+      background-color: blue;
+    }
+    .all{
+      text-align: center;
+      font-family: 'Merienda', cursive;
+      margin: 25px;
+      padding: 25px;
+      border-radius: 20px;
+      background-color: white;
+      height: 630px;
+    }
+
+    .button {
+display: inline-block;
+border-radius: 4px;
+background-color: blue;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+.i1{
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+.i2{
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+}
+#alert{
+  font-size: 30px;
+  color: red;
+}
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <a href="html.html">
+      <img src="logo.png" width="70px" height="70px" class="i1"></a>
+      <img src="net.png" class="i2">
+      <h1>Welcome to Internet Connectivity voting portal</h1>
+      <h3>Your veiws on current internet connectivity in uinversity?</h3>
+      <button class="button" style="vertical-align:middle" onclick="yep()"><span>Satisfactory</span></button>
+      <button class="button" style="vertical-align:middle" style="float:right" onclick="nop()" ><span>Unsatisfactory</span></button>
+      <script src="myscripts.js"></script>
+      <p id="alert"></p>
+    </div>
+  </body>
+</html>
